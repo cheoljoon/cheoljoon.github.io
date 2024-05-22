@@ -1,12 +1,17 @@
 ---
 layout: page
-permalink: /teaching/
-title: Teaching
-description: A journey of awakening minds, fostering intellectual curiosity, and guiding individuals to navigate the depths of thought.
-cv_pdf: CV_Cheoljoon_Jeong_20231211.pdf
+permalink: /publications/
+title: Publications
+description: Publications are listed in reverse chronological order.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
+<!-- _pages/publications.md -->
+<!-- <div class="publications">
+
+{% bibliography -f {{ site.scholar.bibliography }} %}
+
+</div> -->
 
 <b>Graduate Student Instructor</b>, University of Michigan
 

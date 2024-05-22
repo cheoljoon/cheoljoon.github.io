@@ -11,6 +11,23 @@ layout: default
   </header>
 
   <article>
+    {{ content }}
+  </article>
+
+  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+  <h2>References</h2>
+  <div class="publications">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+  </div>
+  {%- endif %}
+
+  {%- if site.giscus and page.giscus_comments -%}
+    {% include giscus.html %}
+  {%- endif -%}
+</div>
+
+  <!-- <article>
     <div class="cv">
       {% for entry in site.data.cv %}
         <a class="anchor" id="{{ entry.title }}"></a>
@@ -95,4 +112,4 @@ layout: default
   </article>
 
 </div>
-{% endunless %}
+{% endunless %} -->

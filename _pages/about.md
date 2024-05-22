@@ -1,27 +1,27 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. Candidate, University of Michigan, Ann Arbor, USA
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Photo_Cheoljoon_Jeong_company.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+  more_info: 
+  
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This is a test website.
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am a Ph.D. Candidate in [Industrial and Operations Engineering](https://ioe.engin.umich.edu/) with a dual degree in [Statistics](https://lsa.umich.edu/stats) at the [University of Michigan, Ann Arbor](https://umich.edu/). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interest lies in the intersection of industrial data science and optimization, aiming to  tackle a wide range of challenges within energy, manufacturing, and healthcare sectors. I currently focus on developing novel model calibration (aka. digital twin calibration) methodologies in wind power and building energy systems. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I worked as a data scientist at [NICE Credit Bureau](https://www.niceinfo.co.kr/main.nice), where I experienced lauching a new business that leverages large-scale real estate data in South Korea. Then I joined academia through a master’s program in [Industrial and Systems Engineering](https://www.ise.ncsu.edu/) at [North Carolina State University, Raleigh](https://www.ncsu.edu/), where I was involved in data analytics projects to create innovative quality fault diagnostic methods for multi-stage manufacturing systems. 
+
+Throughout my academic journey, I have had the privilege of being selected as the [Edward P. Fitts](https://www.ise.ncsu.edu/alumni/fitts-scholars-and-fellows/), [Seth Bonder](https://en.wikipedia.org/wiki/Seth_Bonder), and [IES Graduate](https://ies.engin.umich.edu/for-students/ies-graduate-student-fellowship-program/) Fellow.
+
+<b>I will be on the job market in Fall 2024.</b>

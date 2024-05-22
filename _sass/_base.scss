@@ -17,6 +17,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-weight: 400;
 }
 
 hr {
@@ -37,7 +38,7 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
-
+  font-weight: 400;
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
@@ -352,7 +353,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       i::before {
@@ -457,6 +458,7 @@ footer.sticky-bottom {
   background-color: transparent;
   border: none;
   color: var(--global-text-color);
+  font-weight: 400;
 }
 
 // Repositories

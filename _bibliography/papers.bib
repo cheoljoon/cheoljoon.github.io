@@ -1,84 +1,63 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{Ziang2021season,
+  abbr={Energy},
+  author = {Z. Xu and C. Jeong and E. Byon and K. Cetin},
+  journal = {Proceedings of 2021 IISE Annual Conference},
+  pages = {423-428},
+  title = {Season-Dependent Parameter Calibration in Building Energy Simulation},
+  year = {2021},
+  bibtex_show = {true},
+  abstract = {As the energy consumption from residential and commercial buildings makes up approximately three-quarters of the U.S. electricity loads, analyzing building energy consumption behavior becomes essential for effective power grid operation. An accurate physics-based building energy simulator that is built on first principles can predict an individual building’s energy response, such as energy consumption and indoor environmental conditions under different weather and operational control scenarios. In the building energy simulator, several parameters that specify building characteristics need to be set a priori. Among those parameters, some parameters are season-dependent, whereas other parameters should be globally employed throughout a year. Existing studies in parameter calibration ignore such  heterogeneity, which causes suboptimal calibration results. This study presents a new  calibration approach that considers the seasonal dependency.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@article{Jeong2022matrix,
+  abbr={MFG},
+  author = {Jeong, C. and Fang, X.},
+  title = {Two-Dimensional Variable Selection and Its Applications in the Diagnostics of Product Quality Defects},
+  journal = {IISE Transactions},
+  volume = {54},
+  number = {7},
+  pages = {619-629},
+  year = {2022},
+  publisher = {Taylor \& Francis},
+  abstract = {The root cause diagnostics of product quality defects in multistage manufacturing processes often requires a joint identification of crucial stages and process variables. To meet this requirement, this article proposes a novel penalized matrix regression methodology for two-dimensional variable selection. The method regresses a scalar response variable against a matrix-based predictor using a generalized linear model. The unknown regression coefficient matrix is decomposed as a product of two factor matrices. The rows of the first factor matrix and the columns of the second factor matrix are simultaneously penalized to inspire sparsity. To estimate the parameters, we develop a Block Coordinate Proximal Descent (BCPD) optimization algorithm, which cyclically solves two convex sub-optimization problems. We have proved that the BCPD algorithm always converges to a critical point with any initialization. In addition, we have also proved that each of the sub-optimization problems has a closed-form solution if the response variable follows a distribution whose (negative) log-likelihood function has a Lipschitz continuous gradient. A simulation study and a dataset from a real-world application are used to validate the effectiveness of the proposed method.},
+  html = {https://doi.org/10.1080/24725854.2021.1904524},
+  bibtex_show = {true},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{Jeong2023multiblock,
+  abbr={Energy},
+  title = {Multi-Block Parameter Calibration in Computer Models},
+  author = {Jeong, C. and Ziang, X. and Byon, E. and Berahas, A. S. and Cetin, K.},
+  journal = {INFORMS Journal on Data Science},
+  volume = {1},
+  pages = {160},
+  year = {2023},
+  bibtex_show = {true},
+  selected = {true},
+  abstract = {Parameter calibration aims to estimate unobservable parameters employed in a computer model by utilizing physical process responses and computer model outputs. In the literature, existing studies calibrate all parameters simultaneously using an entire dataset. However, in certain applications, some parameters are associated with only a subset of data. For example, in the building energy simulation, cooling (heating) season parameters should be calibrated using data collected during the cooling (heating) season only.  This study provides  a new multi-block calibration approach that considers such  heterogeneity. Unlike existing studies that build emulators for the computer model response, such as the widely used Bayesian calibration approach, we consider multiple loss functions to be minimized, each for a block of parameters that use the corresponding dataset, and estimate the parameters using a nonlinear optimization technique. We present the convergence properties under certain conditions and quantify the parameter estimation uncertainties. The superiority of our approach is demonstrated through numerical studies and a real-world building energy simulation case study.},
+  html = {https://doi.org/10.1287/ijds.2023.0029}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{Jeong2024irls,
+  abbr={Energy},
+  author = {C. Jeong and E. Byon},
+  journal = {Applied Energy},
+  title = {Calibration of Building Energy Computer Models via Bias-Corrected Iteratively Reweighted Least Squares Method},
+  year = {2024},
+  abstract = {As the building sector contributes approximately three-quarters of the U.S. electricity load, analyzing buildings' energy consumption patterns and establishing their effective operational strategy become of great importance. To achieve those goals, a physics-based building energy model (BEM), which can simulate a building's energy demand under various weather conditions and operational scenarios, has been developed. To obtain accurate simulation outputs, it is necessary to calibrate some parameters required for the BEM's pre-configuration. The BEM calibration is usually accomplished by matching the simulated energy use with the measured one. However, even with the efforts to calibrate the BEM at best, a systematic discrepancy  between the two quantities is often observed, preventing the precise estimation of the energy demand. Such discrepancy is referred to as bias in this study. We present a new calibration approach that models the discrepancy to correct the relationship between the simulated and measured energy use. We show that our bias correction can improve predictive performance. Additionally, we observe the heterogeneous variance in the electricity loads, especially in the afternoon hours, which often reduces prediction accuracy and increases uncertainty. To address this issue, we incorporate heterogeneous weights into the least squares loss function. To implement the bias-correction procedure with the weighted least squares formulation, we propose a newly devised iteratively reweighted least squares algorithm. The effectiveness of the proposed calibration methodology is evaluated with a real-world dataset collected from a residential building in Texas.},
+  bibtex_show = {true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{Jeong2024tensor,
+  abbr={MFG},
+  author = {Jeong, C. and Byon, E. and He, F. and Fang, X.},
+  journal = {Under Review at IISE Transactions},
+  title = {Tensor-Based Quality Fault Diagnosis Using Multi-Stream High-Dimensional Signals},
+  year = {2024},
+  abstract = {Multistage manufacturing processes (MMPs) with identical stages often provide the three-dimensional process data in which the first dimension represents the process (control/sensing) variable, the second dimension is the stage, and the third dimension is the measurement/sampling/data acquisition time point. The quality fault diagnosis of such processes usually requires the simultaneous identification of crucial process variables and stages associated with product quality anomalies. Most existing diagnosis methods transfer the 3D process data into a 2D matrix, and thus both diagnostic accuracy and stability are compromised due to the loss of information. To address this challenge, this article proposes a penalized tensor regression model that regresses the quality index of a product against its 3D process data. For the estimation of high-dimensional regression coefficients with the limited amount of historical data, we apply the CANDECOMP/PARAFAC (CP) and Tucker decompositions to the coefficient tensor, which significantly reduces the number of parameters to be estimated. Based on the decomposed results, a newly designed regularization term enables the joint identification of critical process variables and stages. To estimate the parameters, we develop the block coordinate proximal descent algorithm and provide its convergence guarantee. Numerical studies have demonstrated that the proposed methods can enhance diagnostic stability and on average improve the diagnostic accuracy by around 20\% over existing benchmarks.},
+  bibtex_show = {true}
 }

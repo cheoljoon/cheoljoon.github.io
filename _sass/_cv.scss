@@ -4,10 +4,12 @@
 
 div.container-link-button {
   margin-right: 0.5rem;
+  font-weight: 400;
 }
 
 table.table-cv {
   background-color: transparent !important;
+  font-weight: 400;
 }
 
 a.btncv {
@@ -31,6 +33,7 @@ a.btncv:hover {
   color: var(--global-theme-color) !important;
   border-color: var(--global-theme-color) !important;
   text-decoration: none !important;
+  font-weight: 400;
 }
 
 /*****************************
@@ -87,6 +90,7 @@ div.container-pdf {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  font-weight: 400;
 }
 
 /*****************************
@@ -166,6 +170,7 @@ ul.timeline li {
   min-height: 2.2rem;
   color: var(--global-text-color);
   list-style-position: inside;
+  font-weight: 400;
 }
 
 span.badge-toc {
@@ -176,6 +181,7 @@ span.badge-toc {
   font-weight: 700 !important;
   display: inline-block;
   inline-size: fit-content;
+  font-weight: 400;
 }
 
 ul.timeline li::before {
@@ -188,6 +194,7 @@ ul.timeline li::before {
   position: absolute;
   left: 2px;
   top: -0.5rem;
+  font-weight: 400;
 }
 
 /*ul.timeline::before {
